@@ -20,7 +20,8 @@
       <ol class="header__button">
           <li><a href="index.html"> indicio</a></li>
           <li><a href="descuentos.html"> Descuentos</a></li>
-          <li><a href="promediomedianamoda.html"> Promedio, Mediana, Moda </a></li>
+          <li>
+          <a href="promediomedianamoda.html"> Promedio, Mediana, Moda </a></li>
         </nav>
       </ol>
     </section>
@@ -30,4 +31,48 @@
     <section class="main__container-card">
       <h2> Calcula tu promedio: </h2>
       <form>
-        <laber for="inputPromedio">Ingresa tus datos: </label>
+        <label for="inputPromedio">Ingresa tus datos: </label>
+        <input id="inputPromedio" type="text" placeholder="Ej:20, 10, 50" />
+      </form>
+
+      <button type="button" onclick="calcularMediaAritmetica1()">
+        calcular la media
+    </button>
+    <p id="resultadoMedia"></p>
+  </section>
+  <section class="main__container-card">
+    <h2>Calcula tu mediana:</h2>
+    <form>
+      <label for="inputMediana">Ingresa tus datos: </label>
+      <input id="inputMediana" type="text" placeholder="Ej: 20, 10, 50">
+    </form>
+ <button type="button" onclick="calcularMediana()">
+Calcular mediana
+ </button>
+ <p id="resultadoMediana"></p>
+ </section>
+</main>
+
+<section class="main__container-card">
+  <h2> Calcula tu moda: </h2>
+  <form> 
+    <label for="inputModa"> Ingresa tus datos: </label>
+    <input id="inputModa" type="text" placeholder="Ej: 20,10,50"/>
+  </form>
+
+  <button type="button" onclick="calcularModa()">Calcular la Moda</button>
+  <p id="resultadoModa"></p>
+  </section>
+  </section>
+
+<footer class="footer">
+  <p>Desarrollado por: jacobo</p>
+</br>
+</footer>
+<script src="promedio.js"></script>
+<script src="mediana.js"></script>
+<script src="moda.js"></script>
+
+</body>
+</html>
+
