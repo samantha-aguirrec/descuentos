@@ -59,7 +59,7 @@ header nav {
   height: 30px;
   margin-bottom: 20px;
 }
-head nav .header__button {
+head nav .header nav {
   width: auto;
   height: auto;
   display: flex;
